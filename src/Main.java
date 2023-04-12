@@ -16,9 +16,9 @@ public class Main {
 
     public static void pedirNumero() {
         Scanner sc = new Scanner(System.in);
-
         int respuesta = 0;
         boolean bucleUno = false;
+
         while (!bucleUno) {
             try {
                 System.out.println("Dame un numero compañero");
@@ -31,4 +31,4 @@ public class Main {
         } //Acaba bucle
         System.out.println("Tu respuesta ha sido registrada: " + respuesta);
     } //Acaba pedirNumero()
-}
+} //Acaba Main
